@@ -1,0 +1,17 @@
+<img src="img/foto.jpg" alt="Mi imagen" class="foto">
+.foto {
+  width: 200px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+body {
+  background: url("img/fondo.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+yesBtn.addEventListener("click", () => {
+  document.body.innerHTML = `
+    <h1>💘 SABÍA QUE DIRÍAS QUE SÍ 💘</h1>
+    <img src="img/amor.jpg" style="width:300px; border-radius:20px;">
+  `;
+});
+
+file:///C:/Users/mavie/Downloads/for%20you%20%E2%99%A1%EF%B8%8E_%C2%B0.jpg
