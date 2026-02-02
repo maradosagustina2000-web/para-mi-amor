@@ -5,6 +5,21 @@
   <title>San Valentín 💘</title>
   <style>
     body {
+      .inicio {
+  width: 220px;
+  margin-bottom: 20px;
+}
+      .inicio {
+  width: 220px;
+  margin-bottom: 20px;
+  animation: saltito 1.5s infinite;
+}
+
+@keyframes saltito {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
       background: radial-gradient(circle, #ff5f9e, #ff85a2);
       font-family: Arial, sans-serif;
       height: 100vh;
@@ -16,6 +31,13 @@
       text-align: center;
       color: white;
     }
+   
+
+@keyframes saltito {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
 
     h1 {
       font-size: 2.5em;
@@ -71,11 +93,14 @@
 </head>
 <body>
 
-  <div id="container">
-    <h1>¿Queres ser mi San Valentín? 💕</h1>
-    <button id="yes">SÍ 💖</button>
-    <button id="no">NO 😭</button>
-  </div>
+ <div id="container">
+
+  <img src="img/gatito.png" alt="gatito san valentin" class="inicio">
+
+  <h1>¿Quieres ser mi San Valentín? 💕</h1>
+  <button id="yes">SÍ 💖</button>
+  <button id="no">NO 😭</button>
+</div>
 
   <script>
     let yesScale = 1;
